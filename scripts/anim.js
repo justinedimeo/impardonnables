@@ -64,8 +64,8 @@ document.getElementById('reponse').addEventListener('keypress', function (event)
 
       }, 300);
 
-      correction.textContent += "   / " + motsDef[aleasecondaire];
-      correction.style.display = "block";
+      /*correction.textContent += "   / " + motsDef[aleasecondaire];
+      correction.style.display = "block";*/
 
       secon += 25;
 
