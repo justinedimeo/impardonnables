@@ -11,7 +11,7 @@ function showQuestion() {
   } else {
     game.style.display = "none";
     fin.style.display = "block";
-    fin.innerHTML = ("YOU WIN in " + minu + "m" + secon + "s");
+    fin.innerHTML = ("You Finished in " + minu + "m" + secon + "s");
 
 
   }
@@ -67,7 +67,9 @@ document.getElementById('reponse').addEventListener('keypress', function (event)
       secon += 25;
 
     }
+    
     counter++;
+    document.querySelector(".chronoVisible").innerHTML=counter+"/10";
     showQuestion();
   }
 });

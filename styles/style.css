@@ -32,6 +32,23 @@ header {
   padding-right: 70px;
   padding-top: 40px;
   padding-left: 70px;
+  position: relative;
+}
+
+.socialHeader{
+  list-style: none;
+  display: inline-block;
+}
+
+.socialHeader a{
+  padding: 20px;
+  color: #000000;
+}
+
+.socialNetwork{
+  position: absolute;
+  top: 50.7%;
+  left: 83.5%;
 }
 
 
@@ -398,6 +415,10 @@ body {
   display: block;
 }
 
+.avatar {
+  width: 200px;
+}
+
 
 /* QUESTION & ANSWER & CLUE BLOCKS */
 
@@ -431,7 +452,7 @@ body {
   text-transform: uppercase;
   position: absolute;
   left: 36.8%;
-  top: 53%;
+  top: 57%;
 }
 
 #indice {
@@ -466,7 +487,7 @@ body {
   text-align: center;
   position: absolute;
   left: 45%;
-  top: 60%;
+  top: 64%;
 }
 
 .timer {
@@ -474,18 +495,20 @@ body {
   font-size: 36px;
   position: absolute;
   top: 17%;
-  left: 45.8%;
+  left: 30%;
   font-weight: 700;
 }
 
-.coeur {
-  width: 20%;
+.chronoVisible{
+  font-size: 36px;
   position: absolute;
+  top: 17%;
+  left: 65%;
+  font-weight: 700;
 }
 
-.avatar {
-  width: 200px;
-}
+
+/* MUTE BUTON */ 
 
 #mute {
   padding: 30px;
@@ -546,4 +569,6 @@ body {
 .footer img {
   width: 24%;
   padding: 30px;
+  margin-top: -20px;
 }
+
