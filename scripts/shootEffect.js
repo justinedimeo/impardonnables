@@ -9,7 +9,7 @@ function startTir() {
         },
         speed
     );
-    tir.style.transform = "rotate(-45deg)"; /////// Rotation du personnage
+    tir.style.transform = "rotate(60deg)"; /////// Rotation du personnage
     setTimeout(function () {
         tir.style.transform = "rotate(0deg)";
 
@@ -30,15 +30,11 @@ function bougerBalle(timer) { // MOUVEMENT DE BALLE
 
         {
             balle.style.display = "none";
-            var timerCligno = setInterval("clignotement()", 100);
-            clignotement();
-            removeCoeur();
-            setTimeout(function () {
-                clearInterval(timerCligno);
-                if (NombreCoeur === 0) {
-        
-                }
-            }, 500);
+
+           // removeCoeur();
+           // setTimeout(function () {
+            //    clearInterval(timerCligno);
+            //}, 500);
             stop(timer);
         }
     }

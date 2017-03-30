@@ -1,25 +1,3 @@
-var burgerMenu = document.querySelector("#burgerMenu");
-var hamburger = document.querySelector(".hamburger");
-
-hamburger.addEventListener(
-  'click',
-  function()
-  {
-    if(hamburger.classList.contains("is-active"))
-      {
-        burgerMenu.style.left="-2000px";
-      }
-    else
-    {
-    burgerMenu.style.left="0px";
-    }
-    hamburger.classList.toggle("is-active");
-  },
-  false
-);
-
-
-
 /* GAME */
 
 ///////////////////////////////// ARRAY DEFINITION ///////////////////////////////////////////
@@ -50,13 +28,14 @@ var score = 0,
     buttonMute = document.getElementById("buttonMute"),
     numberHearth = 10,
     coeur = document.getElementById("coeur"),
-    largeurJeu = 1500,
+    largeurJeu = 100+"%",
     hauteurJeu = 500,
     posX = 300,
     posXmax = 1100,
     posY = 625,
     dirX = 10,
     dirY = -3,
+    question=document.querySelector(".question"),
     son1= document.getElementById("son1"),
     mute = document.getElementById("mute"),
     isPlaying = false,
@@ -73,7 +52,6 @@ prof.style.display = "block";
 tir.style.display = "block";
 
 //////////////////////////////////////////////START OF THE GAME ////////////////////////
-
 
 
 showQuestion(); //show the first question
