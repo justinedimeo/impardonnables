@@ -571,9 +571,10 @@ READY PAGE
 
 */
 
-#headerReady{
+#headerReady {
   padding-bottom: 15px;
 }
+
 
 /* WHITE BACKGROUND RULES */
 
@@ -633,33 +634,36 @@ READY PAGE
   margin-left: 68px;
 }
 
-.equal{
+.equal {
   padding-top: 8%;
   margin-left: 4%;
 }
 
+
 /* CHOSE A MODE */
 
-.asking{
+.asking {
   text-align: center;
   margin-top: 20px;
 }
 
-.asking p{
+.asking p {
   font-family: 'Open Sans';
   font-size: 16px;
 }
 
-.asking strong{
+.asking strong {
   font-family: 'Open Sans';
   font-size: 16px;
 }
 
-.twoModes, .secondMode, .firstMode{
+.twoModes,
+.secondMode,
+.firstMode {
   text-align: center;
 }
 
-.twoModes div a{
+.twoModes div a {
   text-decoration: none;
   font-size: 20px;
   display: inline-block;
@@ -670,7 +674,7 @@ READY PAGE
   transition: ease-in-out 0.5s;
 }
 
-.twoModes div a:hover{
+.twoModes div a:hover {
   color: #FFFFFF;
   background-color: #000000;
 }
