@@ -1,0 +1,552 @@
+/* FONTS */ 
+@font-face {
+  font-family: 'Sera';
+  src: url(../styles/fonts/Seravek.ttc);
+  font-style: normal;
+}
+
+/* END OF FONTS */ 
+
+*{
+  font-family: 'Lobster', cursive;
+}
+
+.fontSera{
+  font-family: 'Sera';
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #444444;
+}
+
+/* HEADER */ 
+
+header{
+  padding-bottom: 53px;
+  padding-right : 70px;
+  padding-top: 40px;
+  padding-left : 70px;
+}
+
+/* HAMBURGER */ 
+
+
+#burgerMenu{
+  background-image: url('../images/fond_blanc.jpg');
+  background-size: 100%;
+  position: fixed;
+  left: -1900px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transition: linear 1s all;
+}
+
+#burgerMenu ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 200px;
+}
+
+#burgerMenu ul li a{
+  display: block;
+  font-size: 70px;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  margin: 30px 507px;
+}
+
+#burgerMenu ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 4px solid #84D3BA;
+  transition: 0.8s;
+}
+
+#burgerMenu ul li a:hover:after{
+  width: 70%;
+}
+
+#button{
+  z-index: 100000;
+  position: fixed;
+}
+
+
+/* END OF HAMBURGER */ 
+
+/* END OF HEADER */ 
+
+
+
+
+
+/* FIRST */ 
+
+.firstBackground{
+  background-image: url('../images/fond_flou.png');
+  background-size: 100%;
+}
+
+.come{
+  font-size: 40px;
+  text-align: center;
+  padding: 1px 30px;
+}
+
+.play{
+  font-size: 55px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px 140px;
+  margin-bottom: 30px;
+  margin-left: 33.5%;
+  margin-top: 20px;
+  transition: linear 0.7s all;
+}
+
+.play a{
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+}
+
+.play:hover{
+  box-shadow: 5px 5px 5px #000000;
+}
+.play a:hover{
+  color: #000000;
+}
+
+.down, .logo{
+  text-align: center;
+}
+
+.logo img{
+  width: 37%;
+}
+
+.down img{
+  width: 3%;
+  margin-bottom: 10px;
+  opacity: 0.4;
+  transition: linear 0.5s;
+}
+
+.down img:hover{
+  opacity: 1.3;
+}
+
+
+
+
+
+/* SECOND */ 
+
+.second{
+  padding-top: 40px;
+  padding-bottom: 80px;
+  margin-bottom: 60px;
+  background-repeat: repeat-x;
+  background-image: url('../images/fond1.png');
+  background-size: 100%;
+}
+
+.second h2{
+  padding: 35px;
+  font-weight: 200;
+}
+
+.second p{
+  margin-top: 30%;
+  text-align: justify;
+  padding: 30px;
+}
+
+.second img.school{
+  margin-bottom: -80px;
+  margin-top: 60px;
+}
+
+
+
+
+/* THIRD */ 
+
+h2.modes{
+  padding: 20px;
+  font-weight: 200;
+  text-align: center;
+  color: #84D3BA;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.third img{
+  width: 20%;
+}
+
+.third{
+  text-align: center;
+  margin-right: 30px;
+}
+
+.third p{
+  padding: 50px;
+}
+
+.proof img{
+  margin: 10px 70px;
+}
+
+.third h3{
+  margin-top: 30px;
+}
+
+
+.third div.rules{
+  padding: 30px;
+  border-radius: 5px;
+  transition: linear 0.7s all;
+}
+
+.third div.rules:hover{
+  background-color: #E9F7F3;
+  box-shadow: 5px 5px 5px #aaa;
+}
+
+.touche{
+  margin-top: -10.4px;
+}
+
+.left{
+  margin-left: 65px;
+  margin-right: -20px;
+}
+
+.right{
+  margin-right: 65px;
+  margin-left: -20px;
+}
+
+.play2{
+  background-color: #84D3BA;
+  margin-top: 30px;
+  font-size: 30px;
+  border-radius: 36px;
+  padding: 6px 70px;
+  margin-left: 43%;
+}
+
+.play2 a{
+  color: #FFFFFF;
+}
+
+.play2 a:hover{
+  color: #FFFFFF;
+}
+
+
+
+
+/* FOURTH */
+
+.voltaireTitle{
+  font-weight: 200;
+}
+
+.fourth h2{
+  margin-bottom: 30px;
+  padding: 35px;
+}
+
+.fourth p{
+  margin-top: 30%;
+  text-align: justify;
+  padding: 40px;
+}
+
+.fourth{
+  margin-top: 40px;
+  padding-top: 40px;
+  background-color: #F8F7F7;
+  padding-bottom: 30px;
+}
+
+
+
+
+/* FIFTH */
+
+.fifth img{
+  width: 40%;
+}
+
+.fifth{
+  background-color: #B1E0E0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fifth div{
+  display: inline-block;
+  text-align: center;
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.fifth span{
+  display: block;
+  margin-top: 10px;
+}
+
+.vingt{
+  font-size: 60px;
+}
+
+.fifth div:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+
+
+
+/* SIXTH */
+
+.sixth{
+  margin-top: 40px;
+}
+
+.why h2{
+  font-weight: 200;
+  padding: 35px;
+}
+
+.why p{
+  font-family: 'Sera';
+  margin-bottom: 40px;
+}
+
+.teamWord h4{
+  font-weight: 200;
+}
+
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+/* GAME PAGE */
+
+
+/* HEADER */
+
+
+.logoHeader{
+  text-align: center;
+  margin-top: -40px;
+}
+
+.logoHeader img{
+  width: 20%;
+}
+
+/* BODY */
+
+body{
+  position: relative;
+}
+
+#balle{
+  position: absolute;
+  background: #FF9900;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 3em;
+  display: none;
+}
+
+.rotate{
+  transform: rotate(-45deg);
+}
+
+#avatarMain{
+  position: absolute;
+  left: 10%;
+  top: 90%;
+  width: 200px;
+  display: block;
+}
+
+#avatarProf{
+  position: absolute;
+  left: 70%;
+  top: 90%;
+  width: 200px;
+  display: block;
+}
+
+.chronometre{
+  margin-top: -150px;
+}
+
+#play{
+  font-size: 55px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 7px 150px;
+  margin-bottom: 40px;
+  margin-left: 32.8%;
+  transition: linear 0.7s all;
+}
+
+#question{
+  text-align: center;
+  padding: 60px;
+  font-size: 30px;
+  border-radius: 8px;
+  width: 40%;
+  margin-left: 345px;
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
+}
+
+
+#reponse{
+  width: 354px;
+  margin-left: 473px;
+  font-family: 'Sera';
+  text-transform: uppercase;
+}
+
+#indice{
+  font-size: 20px;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 6px;
+  padding: 14px;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Lobster';
+  transition: linear 0.5s;
+}
+
+#indice:hover{
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+#backgroundGame{
+  background-image: url(../images/fond1.png);
+}
+
+.indiceView{
+  font-size: 20px;
+}
+
+.indiceBloc{
+  text-align: center;
+  margin-left: -173px;
+}
+
+.chronometre{
+  text-align: center;
+  float: left;
+  margin-top: -370px;
+  margin-left: 160px;
+}
+
+
+.time{
+  text-align: center;
+}
+
+.coeur{
+  width: 20%;
+  position: absolute;
+}
+
+.avatar{
+  width: 200px;
+}
+
+#mute{
+  padding: 30px;
+  font-family: 'Siera';
+  float: right;
+  margin-top: -150px;
+}
+
+#mute img{
+  width: 80%;
+}
+
+#mute img:hover{
+  width: 80%;
+}
+
+
+
+/* READY PAGE */
+
+
+.beforeGame{
+  text-align: center;
+}
+
+.beforeGame h1{
+  font-weight: 200;
+}
+
+.beforeGame p{
+  font-size: 15px;
+  font-family: 'Sera';
+  margin: 50px 40px;
+}
+
+.backgroundReady{
+  background-repeat: repeat-x;
+  background-image: url('../images/fond1.png');
+  background-size: 100%;
+}
+
+/* BOUTON FIN */
+
+#fin {
+    display: "none";
+    text-align: center;
+    font-size: 5em;
+    width: 30%;
+    margin-left: 35%;
+}
+

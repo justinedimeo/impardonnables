@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="stylesheet" href="../styles/hamburgers.min.css" />
+  <link rel="stylesheet" href="../styles/foundation.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="../images/logo.png" />
+</head>
+
+<body id="backgroundGame">
+
+  <!-- HEADER -->
+  <div class="first row">
+    <div class="secondBackground columns small-12 medium-12 large-12">
+      <header>
+        <div id="button">
+          <button class="hamburger hamburger--emphatic" type="button">
+            <span class="hamburger-box">
+           <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+        <div class="logoHeader">
+          <a href="../index.html" title="accueil"><img src="../images/logo2.png" alt="logo du jeu" /></a>
+        </div>
+        <div id="mute"><img onClick="togglePlay()" id="buttonMute" src="../images/speaker.png" alt="mute"/></div>
+      </header>
+    </div>
+  </div>
+
+
+  <!-- GAME -->
+
+<div class="fontSera" id="jeu">
+  <div class="fontSera" id="question"></div>
+  <input type="text" autofocus="autofocus" id="reponse" class="fontSera" />
+  <div class="indiceBloc">
+    <div class="fontSera" id="indice">Indice</div>
+    <div class="indiceView fontSera"></div>
+  </div>
+  <form name="forsec" class="chronometre">
+    <span>minute(s)</span>
+    <input class="fontSera time" type="text" size="3" name="secb">
+    <span>secondes(s)</span>
+    <input class="fontSera time" type="text" size="3" name="seca">
+    <span>dixème(s)</span>
+    <input class="fontSera time" type="text" size="3" name="secc">
+    <!--arrête temporairement la fonction chrono()-->
+  </form>
+
+  
+    <img src="../images/Leonardo's_Avatar.png" class="clickMe avatar" id="avatarMain"/>
+    <div class="fontSera" id="balle">
+      Nik Leu Frençei
+    </div>
+    <img src="../images/fh04.png" id="avatarProf"/>
+    <img src="../images/110.png" class="coeur" id="coeur1" />
+    <img src="../images/110.png" class="coeur" id="coeur2" />
+    <img src="../images/110.png" class="coeur" id="coeur3" />
+  
+
+
+
+<!-- MUSIC -->
+
+  <audio id="myAudio" src="../music/bensound-littleidea.mp3">
+  </audio>
+  <audio id="son1" src="../music/2006.wav">
+  </audio>
+  
+</div>
+<div id="fin"></div>
+
+
+  <!-- MENU HAMBURGER -->
+  <div id="burgerMenu">
+    <nav>
+      <ul>
+        <li><a href="../index.html" title="accueil">Accueil</a></li>
+        <li><a href="ready.html" title="jeu">Le Jeu</a></li>
+      </ul>
+    </nav>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="../scripts/timer.js"></script>
+  <script src="../scripts/shootEffect.js"></script>
+  <script src="../scripts/anim.js"></script>
+  <script src="../scripts/background.js"></script>
+  <script src="../scripts/hamburger.js"></script>
+  <script src="../scripts/main.js"></script>
+</body>
