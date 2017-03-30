@@ -571,8 +571,14 @@ READY PAGE
 
 */
 
-.beforeGame h1 {
-  font-weight: 200;
+#headerReady{
+  padding-bottom: 15px;
+}
+
+/* WHITE BACKGROUND RULES */
+
+.chose h1 {
+  font-weight: 100;
 }
 
 .beforeGame p {
@@ -583,6 +589,88 @@ READY PAGE
 
 #backgroundReady {
   background-image: url('../images/fond1.png');
+}
+
+.chose {
+  text-align: center;
+  margin-top: -100px;
+}
+
+.allRules {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.ready {
+  background-color: #FFFFFF;
+  height: 400px;
+}
+
+.findWord {
+  text-align: center;
+}
+
+.findWord h2 {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.or {
+  font-family: 'Arial';
+  font-size: 60px;
+  opacity: 0.3;
+  font-weight: 800;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.help h2 {
+  padding: 0px 30px;
+}
+
+.help {
+  padding-top: 63px;
+  margin-left: 68px;
+}
+
+.equal{
+  padding-top: 8%;
+  margin-left: 4%;
+}
+
+/* CHOSE A MODE */
+
+.asking{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.asking p{
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+.asking strong{
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+.twoModes, .secondMode, .firstMode{
+  text-align: center;
+}
+
+.twoModes div a{
+  text-decoration: none;
+  display: inline-block;
+  background: #FFFFFF;
+  padding: 10px 40px;
+  border-radius: 8px;
+  color: #000000;
+}
+
+.twoModes div a:hover{
+  color: #FFFFFF;
+  background-color: #000000;
 }
 
 
@@ -597,7 +685,7 @@ READY PAGE
 }
 
 
-/* TRAINING MODE */ 
+/* TRAINING MODE */
 
 #correction {
   display: none;

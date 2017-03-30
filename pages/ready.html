@@ -15,7 +15,7 @@
 <body id="backgroundReady">
 
   <!-- HEADER -->
-  <header>
+  <header id="headerReady">
     <div id="button">
       <button class="hamburger hamburger--emphatic" type="button">
         <span class="hamburger-box">
@@ -28,10 +28,42 @@
     </div>
   </header>
 
-  <div class="beforeGame">
-    <h1>Le Jeu</h1>
+  <div class="ready">
+    <div class="chose">
+      <h1>Le Principe...</h1></div>
+    <div class="allRules row">
+      <div class="findWord columns large-3">
+        <h2>Trouvez le mot de définition dans le champs de saisie</h2>
+        <img src="../images/mot.png" alt="exemple de mot" />
+      </div>
+      <div class="columns large-1">
+        <h2 class="or">OU</h2>
+      </div>
+      <div class="findWord help columns large-2">
+        <h2>Aidez-vous d'un indice</h2>
+        <img src="../images/indice.png" alt="screenshot du boutton indice" />
+      </div>
+      <div class="equal columns large-1">
+        <img src="../images/equal.png" alt="symbole égal" />
+      </div>
+      <div class="findWord columns large-3">
+        <h2>Validez ou passez le mot en appuyant sur ...</h2>
+        <img src="../images/entree.png" alt="dessin touche entrée" />
+      </div>
+    </div>
   </div>
-  <a class="play" href="jeu.html" title="jouer">Jouer</a>
+
+<div class="asking">
+  <p>Cliquez sur le <strong>mode</strong> de votre choix</p>
+</div>
+  <div class="twoModes row">
+   <div class="firstMode columns large-6">
+     <a href="jeu.html" title="Challenge Mode">Challenge</a>
+   </div>
+   <div class="secondMode columns large-6">
+    <a href="training.html" title="Training Mode">Training</a>
+    </div>
+  </div>
 
   <!-- MENU HAMBURGER -->
   <div id="burgerMenu">
