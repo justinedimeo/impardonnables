@@ -112,18 +112,16 @@ header{
   margin-left: 33.5%;
   margin-top: 20px;
   transition: linear 0.7s all;
-}
-
-.play a{
   text-decoration: none;
   color: #000000;
   display: inline-block;
 }
 
+
 .play:hover{
   box-shadow: 5px 5px 5px #000000;
 }
-.play a:hover{
+.play:hover{
   color: #000000;
 }
 
