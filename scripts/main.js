@@ -10,37 +10,37 @@ var motsDef = Array("PLEBISCITE", "PROSAIQUE", "APANAGE", "AUX ABOIS", "DEXTERIT
 var indiceDef = Array("VOTE A MAIN LEVEE", "COMMUN / BANAL", "CARACTERISTIQUE", "DIFFICULTE", "AGILITE / INGENIOSITE", "ENIGMATIQUE", "JUSTESSE", "FLAIRER", "BIENVEILLANT", "PERSISTANT", "EFFRONTERIE", "TRADITIONNEL", "ENNUI", "APTITUDE", "RETROGRADE / CONSERVATEUR", "DESTRUCTEUR", "AGITATEUR", "DIVINATION", "RUSE", "VOYANT", "VALIDER", "MAZARINADE", "THEORIE", "HOMOGENE", "BIAISER", "ACIDE", "DIVERS", "DÉPRESSION", "DIMINUER", "DÉMUNIR", "ÂNERIE", "AMBIGUE", "POINÇONNER", "AVISER", "AUTORITAIRE", "HASARDEUX", "DÉSORDRE", "LA PREMIERE LETTRE EST D ", "CONTOUR", "RADINERIE", "MAUDIRE", "ÉLOGE", "RATER", "FLATEUR", "FUTILITE", "INDECENT", "VANDALE", " COMIQUE", "FACILE", "HAUTAIN", "COINCIDENT", "CRITIQUE", "MEDIRE", "ABOYER", "INFAMIE", "ÉPATE", "HASARD", "FOURBE", "VIF", "DOUTEUX", "ÉVENTUEL", "SAVOIR", "NONCHALANCE", "CONFUSION", "ERMITE", "CLAIRE");
 
 var score = 0,
-    counter = 0,
-    defSelec = [],
-    centi = 0,
-    secon = 0,
-    minu = 0,
-    speed = 20,
-    timerCurrent = false,
-    indice = document.querySelector("#indice"),
-    aleasecondaire = 0,
-    indiceView = document.querySelector(".indiceView"),
-    game = document.getElementById("jeu"),
-    balle = document.querySelector("#balle"),
-    tir = document.querySelector("#avatarMain"),
-    prof = document.getElementById("avatarProf"),
-    start = document.getElementById("play"),
-    buttonMute = document.getElementById("buttonMute"),
-    numberHearth = 10,
-    coeur = document.getElementById("coeur"),
-    largeurJeu = 100+"%",
-    hauteurJeu = 400,
-    posX = 300,
-    posXmax = 1100,
-    posY = 625,
-    dirX = 10,
-    dirY = -3,
-    question=document.querySelector(".question"),
-    son1= document.getElementById("son1"),
-    mute = document.getElementById("mute"),
-    isPlaying = false,
-    myAudio = document.getElementById("myAudio")
-    fin = document.getElementById('fin');
+  counter = 0,
+  defSelec = [],
+  centi = 0,
+  secon = 0,
+  minu = 0,
+  speed = 20,
+  timerCurrent = false,
+  indice = document.querySelector("#indice"),
+  aleasecondaire = 0,
+  indiceView = document.querySelector(".indiceView"),
+  game = document.getElementById("jeu"),
+  balle = document.querySelector("#balle"),
+  tir = document.querySelector("#avatarMain"),
+  prof = document.getElementById("avatarProf"),
+  start = document.getElementById("play"),
+  buttonMute = document.getElementById("buttonMute"),
+  numberHearth = 10,
+  coeur = document.getElementById("coeur"),
+  largeurJeu = 100 + "%",
+  hauteurJeu = 400,
+  posX = 300,
+  posXmax = 1100,
+  posY = 625,
+  dirX = 10,
+  dirY = -3,
+  question = document.querySelector(".question"),
+  son1 = document.getElementById("son1"),
+  mute = document.getElementById("mute"),
+  isPlaying = false,
+  myAudio = document.getElementById("myAudio")
+fin = document.getElementById('fin');
 
 
 
@@ -57,7 +57,7 @@ tir.style.display = "block";
 showQuestion(); //show the first question
 chronometer();
 myAudio.play();
-myAudio.volume=0.05;
+myAudio.volume = 0.05;
 
 ////////////////////////////////////////// SOUND  /////////////////////////////////////
 
@@ -71,9 +71,9 @@ function togglePlay() {
     buttonMute.setAttribute("src", "../images/speaker.png");
   }
 };
-myAudio.onplaying = function() {
+myAudio.onplaying = function () {
   isPlaying = true;
 };
-myAudio.onpause = function() {
+myAudio.onpause = function () {
   isPlaying = false;
-},false;
+}, false;

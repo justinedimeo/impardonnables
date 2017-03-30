@@ -67,9 +67,9 @@ document.getElementById('reponse').addEventListener('keypress', function (event)
       secon += 25;
 
     }
-    
+
     counter++;
-    document.querySelector(".chronoVisible").innerHTML=counter+"/10";
+    document.querySelector(".chronoVisible").innerHTML = counter + "/10";
     showQuestion();
   }
 });

@@ -1,13 +1,10 @@
-/* FONTS */
-
-@font-face {
-  font-family: 'Sera';
-  src: url(../styles/fonts/Seravek.ttc);
-  font-style: normal;
-}
+/*
 
 
-/* END OF FONTS */
+INDEX PAGE 
+
+
+*/
 
 * {
   font-family: 'Lobster', cursive;
@@ -35,17 +32,17 @@ header {
   position: relative;
 }
 
-.socialHeader{
+.socialHeader {
   list-style: none;
   display: inline-block;
 }
 
-.socialHeader a{
+.socialHeader a {
   padding: 20px;
   color: #000000;
 }
 
-.socialNetwork{
+.socialNetwork {
   position: absolute;
   top: 50.7%;
   left: 83.5%;
@@ -107,7 +104,7 @@ header {
 /* END OF HEADER */
 
 
-/* FIRST */
+/* FIRST : PRESENTATION */
 
 .firstBackground {
   background-image: url('../images/fond_flou.png');
@@ -120,7 +117,7 @@ header {
   padding: 1px 30px;
 }
 
-.linkCenter{
+.linkCenter {
   text-align: center;
 }
 
@@ -167,7 +164,7 @@ header {
 }
 
 
-/* SECOND */
+/* SECOND : RULES */
 
 .second {
   padding-top: 40px;
@@ -206,7 +203,7 @@ header {
 }
 
 
-/* THIRD */
+/* THIRD : MODES */
 
 h2.modes {
   padding: 20px;
@@ -221,6 +218,10 @@ h2.modes {
   width: 20%;
 }
 
+#modif {
+  margin-left: 2%;
+}
+
 .third {
   text-align: center;
   margin-right: 30px;
@@ -230,7 +231,6 @@ h2.modes {
 .third p {
   padding: 50px;
   text-align: justify;
-  
 }
 
 .proof img {
@@ -285,7 +285,7 @@ h2.modes {
 }
 
 
-/* FOURTH */
+/* FOURTH : VOLTAIRE */
 
 .voltaireTitle {
   font-weight: 200;
@@ -311,7 +311,7 @@ h2.modes {
 }
 
 
-/* FIFTH */
+/* FIFTH : BAND */
 
 .fifth img {
   width: 40%;
@@ -347,7 +347,7 @@ h2.modes {
 }
 
 
-/* SIXTH */
+/* SIXTH : WHY */
 
 .sixth {
   margin-top: 40px;
@@ -364,7 +364,29 @@ h2.modes {
 }
 
 
-/* GAME PAGE */
+/* FOOTER */
+
+.footer {
+  text-align: center;
+  background-color: #E2E2E2;
+}
+
+.footer img {
+  width: 24%;
+  padding: 30px;
+  margin-top: -20px;
+}
+
+
+/* 
+
+
+
+GAME PAGE 
+
+
+
+*/
 
 
 /* HEADER */
@@ -386,7 +408,7 @@ body {
   position: relative;
 }
 
-#jeu{
+#jeu {
   margin-top: 70px;
 }
 
@@ -499,7 +521,7 @@ body {
   font-weight: 700;
 }
 
-.chronoVisible{
+.chronoVisible {
   font-size: 36px;
   position: absolute;
   top: 17%;
@@ -508,7 +530,7 @@ body {
 }
 
 
-/* MUTE BUTON */ 
+/* MUTE BUTON */
 
 #mute {
   padding: 30px;
@@ -526,12 +548,17 @@ body {
 }
 
 
-/* READY PAGE */
+/* 
 
-.beforeGame {
-  text-align: center;
-  margin-top: -100px;
-}
+
+
+
+READY PAGE 
+
+
+
+
+*/
 
 .beforeGame h1 {
   font-weight: 200;
@@ -557,18 +584,3 @@ body {
   width: 30%;
   margin-left: 35%;
 }
-
-
-/* FOOTER */
-
-.footer {
-  text-align: center;
-  background-color: #E2E2E2;
-}
-
-.footer img {
-  width: 24%;
-  padding: 30px;
-  margin-top: -20px;
-}
-
