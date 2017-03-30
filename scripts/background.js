@@ -12,6 +12,6 @@ $(function(){
         var x = 0;
         setInterval(function(){
             x-=1;
-            $('.backgroundReady').css('background-position', x + 'px 0');
+            $('#backgroundGame').css('background-position', x + 'px 0');
         }, 10);
     })
