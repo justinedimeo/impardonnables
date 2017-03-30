@@ -359,7 +359,7 @@ h2.modes {
 }
 
 .why p {
-  font-family: 'Sera';
+  font-family: 'Open Sans';
   margin-bottom: 40px;
 }
 
@@ -554,6 +554,11 @@ body {
   position: absolute;
   top: 30%;
   left: 82%;
+}
+
+.likeButon{
+  background: black;
+  z-index: 9;
 }
 
 
