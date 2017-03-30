@@ -39,8 +39,9 @@ var score = 0,
   son1 = document.getElementById("son1"),
   mute = document.getElementById("mute"),
   isPlaying = false,
-  myAudio = document.getElementById("myAudio")
-fin = document.getElementById('fin');
+  myAudio = document.getElementById("myAudio"),
+  correction=document.getElementById("correction"),
+  fin = document.getElementById('fin');
 
 
 
