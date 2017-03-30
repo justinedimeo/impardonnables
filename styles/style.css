@@ -157,11 +157,13 @@ header{
   background-repeat: repeat-x;
   background-image: url('../images/fond1.png');
   background-size: 100%;
+  position: relative;
 }
 
 .second h2{
   padding: 35px;
   font-weight: 200;
+  z-index: 5;
 }
 
 .second p{
@@ -173,6 +175,16 @@ header{
 .second img.school{
   margin-bottom: -80px;
   margin-top: 60px;
+}
+
+.one{
+  position: absolute;
+  font-size: 85px;
+  opacity: 0.1;
+  right: 89%;
+  font-family: 'Futura';
+  font-weight: 800;
+  
 }
 
 
@@ -196,6 +208,7 @@ h2.modes{
 .third{
   text-align: center;
   margin-right: 30px;
+  margin-bottom: 70px;
 }
 
 .third p{
@@ -222,7 +235,7 @@ h2.modes{
   box-shadow: 5px 5px 5px #aaa;
 }
 
-.touche{
+.touch{
   margin-top: -10.4px;
 }
 
@@ -238,19 +251,21 @@ h2.modes{
 
 .play2{
   background-color: #84D3BA;
-  margin-top: 30px;
   font-size: 30px;
   border-radius: 36px;
   padding: 6px 70px;
-  margin-left: 43%;
+  margin: 40%;
 }
 
-.play2 a{
+.play2{
   color: #FFFFFF;
+  transition: linear 0.5s;
 }
 
-.play2 a:hover{
-  color: #FFFFFF;
+.play2:hover{
+  color: #2B792B;
+  background-color: #E9F7F3;
+  
 }
 
 
@@ -276,8 +291,9 @@ h2.modes{
 .fourth{
   margin-top: 40px;
   padding-top: 40px;
-  background-color: #F8F7F7;
+  background-color: #DDF4FF;
   padding-bottom: 30px;
+  background-image: url('../images/fond1.png');
 }
 
 
@@ -290,9 +306,9 @@ h2.modes{
 }
 
 .fifth{
-  background-color: #B1E0E0;
-  padding-top: 30px;
+  padding-top: 80px;
   padding-bottom: 30px;
+  background-image: url('../images/fond1.png');
 }
 
 .fifth div{
