@@ -2,7 +2,7 @@
 
 /////////////////////////////////////////////CHOIX ALEATOIRE + ENTRER REPONSE////////////////////
 function showQuestion() {
-    if (compteur < 10) {
+    if (counter < 10) {
         var alea = Math.floor(Math.random() * 66);
         if (defSelec.indexOf(alea) == -1) {
             aleasecondaire = alea;
@@ -11,7 +11,7 @@ function showQuestion() {
             document.getElementById('reponse').value = "";
         }
     } else {
-        jeu.style.display="none";
+        game.style.display="none";
         fin.style.display="block";
         fin.innerHTML= ("YOU WIN in " + minu + "m" + secon + "s");
 
@@ -39,9 +39,7 @@ document.getElementById('reponse').addEventListener('keypress', function (event)
             secon += 10;
             startTir();
         }
-        console.log(compteur);
-        compteur++;
-        console.log(compteur);
+        counter++;
         showQuestion();
     }
 });

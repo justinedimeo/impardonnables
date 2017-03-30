@@ -7,7 +7,7 @@ function startTir() {
         function () {
             bougerBalle(timer);
         },
-        vitesse
+        speed
     );
     tir.style.transform = "rotate(-45deg)"; /////// Rotation du personnage
     setTimeout(function () {
