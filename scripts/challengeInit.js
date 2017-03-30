@@ -1,0 +1,3 @@
+/////////////////////////////////// HIDE USELESS FUNCTION///////////
+
+correction.style.display="none";
