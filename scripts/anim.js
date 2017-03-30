@@ -35,11 +35,10 @@ document.getElementById('reponse').addEventListener('keypress', function (event)
         reponse=this.value.toUpperCase()//On récupère la réponse
         indiceView.style.display = "none";
         if (reponse == motsDef[def.indexOf(question)]) { //Si reponse est égale à la réponse du même index que la question
-            startTir();
             score++;
             document.getElementById('question').style.left="40%";
             setTimeout(function () {
-                document.getElementById('question').style.left="25%";
+                document.getElementById('question').style.left="30%";
                 
                 
 
@@ -52,7 +51,7 @@ document.getElementById('reponse').addEventListener('keypress', function (event)
             }, 100);
             document.getElementById('question').style.left="15%";
             setTimeout(function () {
-                document.getElementById('question').style.left="32%";
+                document.getElementById('question').style.left="30%";
 
             }, 300);
 
