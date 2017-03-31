@@ -45,6 +45,7 @@ var score = 0,
     isPlaying = false,
     myAudio = document.getElementById("myAudio"),
     correction = document.getElementById("correction"),
+    restTime = 0,
     fin = document.getElementById('fin');
 
 //////////////////////////////////////INITIALIZATION///////////////////////////////////////
