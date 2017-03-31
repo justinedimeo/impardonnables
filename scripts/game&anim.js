@@ -26,8 +26,17 @@ function showQuestion() {
   }
 }
 
+var submit = document.querySelector('#submit');
+var send = document.querySelector('#send');
+submit.addEventListener(
+  'click',
+  function () {
+    send.style.display = "block";
+  }
+);
+
 ////////////////////////////////INDICATION////////////////////////////////////////////////////////////////////////////////////////////
-indice.addEventListener(
+submit.addEventListener(
   'click',
   function () {
     indiceView.innerHTML = indiceDef[aleasecondaire];
@@ -35,6 +44,7 @@ indice.addEventListener(
     secon += 10;
   }
 );
+
 
 ////////////////////////////////////////////////////////ANIMATION and ENTER ANSWER SYSTEM///////////////////////////////////////////////
 document.getElementById('reponse').addEventListener('keypress', function (event) { //The user pressed a key

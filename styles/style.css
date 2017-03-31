@@ -753,6 +753,15 @@ READY PAGE
   display: none;
 }
 
+#send{
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 6.5%;
+  display: none;
+}
+
 
 
 /* TRAINING MODE */
