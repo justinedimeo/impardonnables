@@ -364,6 +364,7 @@ h2.modes {
 }
 
 
+
 /* FOOTER */
 
 .footer {
@@ -668,7 +669,7 @@ READY PAGE
   font-size: 20px;
   display: inline-block;
   background: #FFFFFF;
-  padding: 10px 40px;
+  padding: 15px 80px;
   border-radius: 8px;
   color: #000000;
   transition: ease-in-out 0.5s;
@@ -688,23 +689,12 @@ READY PAGE
   font-size: 5em;
   width: 30%;
   margin-left: 35%;
+  margin-top: -17%;
 }
 
-
-/* TRAINING MODE */
-
-#correction {
-  font-family: 'Open Sans';
-  width: 200px;
-  height: 100%;
-  position: absolute;
-  top: 30%;
-  left: 2%;
-  font-weight: 500;
+.down{
+  padding-top: 100px;
 }
-
-
-/* leaderboard */
 
 /* LEADERBOARD */
 
@@ -763,11 +753,21 @@ READY PAGE
   display: none;
 }
 
-#send{
+
+
+/* TRAINING MODE */
+
+#correction {
   font-family: 'Open Sans';
-  font-size: 14px;
-  font-weight: 600;
-  font-style: normal;
-  margin-left: 6.5%;
-  display: none;
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  font-weight: 500;
 }
+
+
+
+
+
