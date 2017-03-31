@@ -62,11 +62,11 @@ myAudio.volume = 0.05; //Regulates the volume
 
 ////////////////////////////////////////// SOUND  /////////////////////////////////////
 function togglePlay() { //
-    if (isPlaying) { //
+    if (isPlaying) { // PAUSE THE AUDIO
         myAudio.pause() //
         son1.pause() //
         buttonMute.setAttribute("src", "../images/speaker2.png"); // Function to mute sound
-    } else { //
+    } else { // PLAY THE AUDO
         myAudio.play() //
         buttonMute.setAttribute("src", "../images/speaker.png"); //
     } //

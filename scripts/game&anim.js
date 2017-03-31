@@ -1,6 +1,6 @@
 /////////////////////////////////////////////RANDOM CHOICE////////////////////////////////////////////////////////////
 function showQuestion() {
-    if (counter < 11) { //10 random definition             
+    if (counter < 10) { //10 random definition             
         var alea = Math.floor(Math.random() * 66); // create random number 
         if (defSelec.indexOf(alea) == -1) { // dont take the same number 
             aleasecondaire = alea;
@@ -9,11 +9,16 @@ function showQuestion() {
             document.getElementById('reponse').value = "";
         }
     } else {
+         if (secon > 59) {
+            restTime = secon-60;
+            secon = 0;
+            secon += restTime; 
+            minu++
+        }
         game.style.display = "none"; //The game disappears
         fin.style.display = "block"; //end of the game 
-        fin.innerHTML = ("You Finished in " + minu + "m" + secon + "s"); //Displays the score (timer)
-
-
+        fin.innerHTML = ("You Finished in " + minu + ":" + secon + ":" + centi); //Displays the score (timer)
+        
     }
 }
 
@@ -73,7 +78,7 @@ document.getElementById('reponse').addEventListener('keypress', function (event)
         }
 
         counter++;
-        document.querySelector(".chronoVisible").innerHTML = counter + "/11";
+        document.querySelector(".chronoVisible").innerHTML = counter + "/10";
         showQuestion();
     }
 });
