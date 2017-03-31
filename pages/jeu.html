@@ -67,6 +67,14 @@
     </audio>
 
   </div>
+  
+  <!-- TEXT AREA DATA BASE -->
+
+  <textarea id="mainText"></textarea>
+  <button id="submit" onclick="clickTest()"><i>Envoyer</i></button>
+  <a id="linkclassement" href="test.html">Voir le Classement Général de la promotion(envoyer votre pseudo avant)</a>
+
+
   <div id="fin"></div>
 
   <!--the restart button-->
@@ -87,7 +95,23 @@
       </ul>
     </nav>
   </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAgC_-qWvTsW2pflkftj_vHdDh0P44A7WU",
+      authDomain: "jshetic-92c18.firebaseapp.com",
+      databaseURL: "https://jshetic-92c18.firebaseio.com",
+      storageBucket: "jshetic-92c18.appspot.com",
+      messagingSenderId: "502411011700"
+    };
+    firebase.initializeApp(config);
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="../scripts/database.js"></script>
   <script src="../scripts/timer.js"></script>
   <script src="../scripts/challengeInit.js"></script>
   <script src="../scripts/game&anim.js"></script>

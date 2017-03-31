@@ -702,3 +702,24 @@ READY PAGE
   left: 2%;
   font-weight: 500;
 }
+
+
+/* LEADERBOARD */
+
+#mainText {
+  display: none;
+}
+
+#submit {
+  display: none;
+}
+
+#linkclassement {
+  display: none;
+}
+
+#maintext{
+  width: 400px;
+  margin: 0 auto;
+}
+
