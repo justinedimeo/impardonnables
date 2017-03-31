@@ -1,6 +1,6 @@
 /////////////////////////////////////////////RANDOM CHOICE////////////////////////////////////////////////////////////
 function showQuestion() {
-    if (counter < 10) { //10 random definition             
+    if (counter < 11) { //10 random definition             
         var alea = Math.floor(Math.random() * 66); // create random number 
         if (defSelec.indexOf(alea) == -1) { // dont take the same number 
             aleasecondaire = alea;
@@ -73,7 +73,7 @@ document.getElementById('reponse').addEventListener('keypress', function (event)
         }
 
         counter++;
-        document.querySelector(".chronoVisible").innerHTML = counter + "/10";
+        document.querySelector(".chronoVisible").innerHTML = counter + "/11";
         showQuestion();
     }
 });
