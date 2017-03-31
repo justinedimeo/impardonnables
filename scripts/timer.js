@@ -9,9 +9,7 @@ function chronometer() {
             secon++
         } //If the tenths> 9, they are reset to 0 and the seconds are incremented by 1
         if (secon > 59) {
-            restTime = secon-60;
             secon = 0;
-            secon += restTime; 
             minu++
         } //If seconds> 59, they are reset to 0 and increments the minutes by 1
         document.getElementById("cent").innerHTML = " " + centi //on affiche les dixièmes

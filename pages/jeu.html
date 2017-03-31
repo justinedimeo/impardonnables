@@ -67,21 +67,18 @@
     </audio>
 
   </div>
-
-  <!-- TEXT AREA DATA BASE -->
-  <span id="yourName">Rentrez votre nom pour envoyer votre score:</span>
   <textarea id="mainText"></textarea>
-  <button id="submit" onclick="clickTest()"><i>Envoyer</i></button><span id="send">Votre score a bien été envoyé</span>
-  <a id="linkclassement" href="test.html">Voir le Classement Général de la promotion(envoyer votre pseudo avant) ICI</a>
-
-
+  <button id="submit" onclick="clickTest()"><i>Envoyer</i></button>
+  <a id="linkclassement" href="test.html">Voir le Classement Général de la promotion(envoyer votre pseudo avant)</a>
   <div id="fin"></div>
+
 
   <!--the restart button-->
   <div class="linkCenter"><a class="play" href="jeu.html" title="jouer">Rejouer</a></div>
 
 
   <div id="tweetButon"><a href="https://twitter.com/intent/tweet?button_hashtag=Impardonnable&text=Je%20vais%20exploser%20le%20classement%20g%C3%A9n%C3%A9ral%20!" class="twitter-hashtag-button" data-size="large" data-url="http://impardonnable.hol.es/index.html">Tweet #Impardonnable</a></div>
+  <div class="fb-like" data-href="https://www.facebook.com/Impardonnable/?fref=ts" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
 
 
 
@@ -95,9 +92,17 @@
       </ul>
     </nav>
   </div>
-
-
-
+  <div id="fb-root"></div>
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
   <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
   <script>
     // Initialize Firebase
