@@ -688,7 +688,7 @@ READY PAGE
   font-size: 5em;
   width: 30%;
   margin-left: 35%;
-  margin-top: -19%;
+  margin-top: -17%;
 }
 
 /* LEADERBOARD */
@@ -745,6 +745,7 @@ READY PAGE
   font-weight: 600;
   font-style: normal;
   margin-left: 3%;
+  display: none;
 }
 
 

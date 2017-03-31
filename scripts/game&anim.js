@@ -17,10 +17,10 @@ function showQuestion() {
     }
     game.style.display = "none"; //The game disappears
     fin.style.display = "block"; //end of the game 
-    fin.innerHTML = ("You Finished in " + minu + "m" + secon + "s"); //Displays the score (timer)
+    fin.innerHTML = ("You Finished in " + minu + ":" + secon + ":" + centi); //Displays the score (timer)
     document.querySelector("#mainText").style.display = "block";
     document.querySelector("#submit").style.display = "block";
-    document.querySelector("#linkclassement").style.display = "block";
+    document.querySelector("#yourName").style.display = "block"; document.querySelector("#linkclassement").style.display = "block";
 
 
   }
