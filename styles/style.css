@@ -688,7 +688,65 @@ READY PAGE
   font-size: 5em;
   width: 30%;
   margin-left: 35%;
+  margin-top: -19%;
 }
+
+/* LEADERBOARD */
+
+#mainText {
+  display: none;
+  padding: 20px;
+  width: 350px;
+  margin-left: 1%;
+}
+
+#submit {
+  display: none;
+}
+
+#linkclassement {
+  display: none;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 1%;
+  color: #000000;
+}
+
+#linkclassement:hover{
+  text-decoration: underline;
+}
+
+#submit i{
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#submit{
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 10%;
+  transition: ease-in-out 0.5s;
+}
+
+#submit:hover{
+  background: #000000;
+  color: #FFFFFF;
+}
+
+#yourName{
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 3%;
+}
+
 
 
 /* TRAINING MODE */
@@ -704,22 +762,6 @@ READY PAGE
 }
 
 
-/* LEADERBOARD */
 
-#mainText {
-  display: none;
-}
 
-#submit {
-  display: none;
-}
-
-#linkclassement {
-  display: none;
-}
-
-#maintext{
-  width: 400px;
-  margin: 0 auto;
-}
 
